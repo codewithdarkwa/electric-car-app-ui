@@ -132,7 +132,7 @@ class _HomeState extends State<Home> {
                     children: [
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                        child: Container(
+                        child: SizedBox(
                           width: 60,
                           height: 60,
                           child: Image.asset('assets/neon.png'),
