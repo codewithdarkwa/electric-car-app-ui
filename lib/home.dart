@@ -217,11 +217,11 @@ class _HomeState extends State<Home> {
           ),
           FloatingActionButton(
             onPressed: () {},
-            child: const Icon(
+            backgroundColor: Colors.purpleAccent,
+            child:  const Icon(
               Icons.flash_on,
               color: Colors.white,
             ),
-            backgroundColor: Colors.purpleAccent,
           )
         ],
       ),
